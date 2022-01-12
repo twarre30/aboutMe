@@ -70,15 +70,15 @@ p, li {
   display: flex;
 }
 
-.lesson-steps li:nth-child(even) .lesson-step {
+.ideas li:nth-child(even) .lesson-step {
   flex-flow: row-reverse nowrap;
 }
 
-.lesson-steps li:nth-child(odd) .lesson-step {
+.ideas li:nth-child(odd) .lesson-step {
   flex-flow: row nowrap;
 }
 
-.lesson-steps {
+.ideas {
   list-style: none;
   padding: 0;
 }
