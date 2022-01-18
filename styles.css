@@ -30,7 +30,7 @@ header > p {
 
 nav li {
   display: inline-block;
-  margin: 0 12px;
+  margin: 20px;
 }
 
 h1 {
@@ -40,6 +40,10 @@ h1 {
 }
 
 h2 {
+  text-align: center;
+}
+
+h3 {
   text-align: center;
 }
 
@@ -66,19 +70,12 @@ p, li {
   line-height: 1.5;
   font-size: 20px;
 }
-
-.lesson-step {
+/*
+.step {
   margin-bottom: 64px;
   display: flex;
-}
+} */
 
-.ideas li:nth-child(even) .lesson-step {
-  flex-flow: row-reverse nowrap;
-}
-
-.ideas li:nth-child(odd) .lesson-step {
-  flex-flow: row nowrap;
-}
 
 .ideas {
   list-style: none;
@@ -86,7 +83,7 @@ p, li {
 }
 
 .step img {
-  width: 300px;
+  width: 500px;
   margin: 0 36px;
 
 }
