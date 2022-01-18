@@ -82,6 +82,10 @@ p, li {
   padding: 0;
 }
 
+figure {
+  display: block;
+}
+
 .step img {
   width: 500px;
   margin: 0 36px;
