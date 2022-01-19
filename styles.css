@@ -47,8 +47,8 @@ nav li {
 
 nav {
   background-color: #BFDAF9;
-  border: solid 1px #BFDAF9;
-  display: inline-flexbox;
+  border: solid 1px #094d9b;
+  border-radius: 20px;
   
 }
 
