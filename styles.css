@@ -20,6 +20,18 @@ html::before {
   );
 }
 
+html::after {
+  content: " ";
+  display: block;
+  height: 12px;
+  background: linear-gradient(
+    90deg,
+    hsl(266, 50%, 50%) 0%,
+    hsl(308, 50%, 50%) 100%
+  );
+}
+
+
 header {
   margin-bottom: 64px;
   text-align: center;
@@ -28,9 +40,21 @@ header > p {
   margin-top: 0;
 }
 
+aside{
+display: flex;
+flex-direction: column;
+}
+
 nav li {
   display: inline-block;
-  margin: 20px;
+  margin: 5px;
+}
+
+nav {
+  background-color: #BFDAF9;
+  border: solid 1px #BFDAF9;
+  display: flex;
+  
 }
 
 h1 {
