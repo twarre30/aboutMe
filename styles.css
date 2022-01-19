@@ -114,7 +114,7 @@ p, li {
   width: 400px;
   margin: 0 36px;
   border-radius: 40px;
-  box-shadow: violet;
+  box-shadow: 10px 5px 5px;
 
 }
 
@@ -129,7 +129,7 @@ p, li {
   width: 250px;
   border: 0.5px solid hsl(240, 50%, 50%);
   border-radius: 40px;
-  box-shadow: 10px 5px 5px turquoise;
+  box-shadow: 10px 5px 5px;
 }
 
 
