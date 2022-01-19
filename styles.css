@@ -40,11 +40,6 @@ header > p {
   margin-top: 0;
 }
 
-aside{
-display: flex;
-flex-direction: column;
-}
-
 nav li {
   display: inline-block;
   margin: 5px;
@@ -53,7 +48,7 @@ nav li {
 nav {
   background-color: #BFDAF9;
   border: solid 1px #BFDAF9;
-  display: flex;
+  display: inline-flexbox;
   
 }
 
@@ -81,6 +76,12 @@ h3 {
   
 }
 
+footer {
+  clear: both;
+  width: 100%;
+  display:block;
+}
+
 img {
   box-shadow: 2px 2px 2px hsl(0, 0%, 50%);
   border-radius: 2px;
@@ -95,12 +96,13 @@ p, li {
   font-size: 20px;
 }
 
-/*
+
+
 .step {
   margin-bottom: 64px;
   display: flex;
 } 
-*/
+
 
 
 .ideas {
