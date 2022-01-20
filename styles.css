@@ -104,7 +104,8 @@ p, li {
 
 .step {
   margin-bottom: 64px;
-  display: list-item;
+  display: flex;
+  max-width: 50%;
 } 
 
 
