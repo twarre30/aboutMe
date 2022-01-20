@@ -97,7 +97,7 @@ p {
 p, li {
   line-height: 1.5;
   font-size: 20px;
-  min-width: 480px;
+
 }
 
 
@@ -105,6 +105,8 @@ p, li {
 .step {
   margin-bottom: 64px;
   display: flex;
+  max-width: 650px;
+  min-width: 480px;
 } 
 
 
