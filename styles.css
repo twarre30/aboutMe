@@ -134,8 +134,18 @@ p, li {
   box-shadow: 10px 5px 5px;
 }
 
-.feedback, .thoughts {
+aside {
+  width: 40%;
+  padding-left: .5rem;
+  margin-left: .5rem;
   float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+
+aside > p > ul > li {
+  margin: .5rem;
 }
 
 
