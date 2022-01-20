@@ -103,7 +103,7 @@ p, li {
 
 .step {
   margin-bottom: 64px;
-  display: inline-block;
+  display: inline-flex;
 }
    
 
