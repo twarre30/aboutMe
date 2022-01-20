@@ -105,8 +105,7 @@ p, li {
 .step {
   margin-bottom: 64px;
   display: flex;
-  max-width: 650px;
-  min-width: 480px;
+  
 } 
 
 
