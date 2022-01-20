@@ -135,12 +135,17 @@ p, li {
 }
 
 aside {
-  width: 80%;
-  padding: 10px;
-  margin: 10px;
+  width: 75%;
+  padding-left: .5rem;
+  margin-left: .5rem;
   float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
 }
 
+aside > p {
+  margin: .5rem;
+}
 
 
 
