@@ -97,14 +97,13 @@ p {
 p, li {
   line-height: 1.5;
   font-size: 20px;
-  max-width: 50%;
 }
 
 
 
 .step {
   margin-bottom: 64px;
-  display: flex;
+  display: inline-block;
 }
    
 
