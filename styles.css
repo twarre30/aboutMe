@@ -92,11 +92,12 @@ img {
 p {
   margin-bottom: 36px;
   max-width: 650px;
-  min-width: 480px;
+  
 }
 p, li {
   line-height: 1.5;
   font-size: 20px;
+  min-width: 480px;
 }
 
 
